@@ -6,4 +6,7 @@ This was developed using the Google Maps Api, along with HTML, CSS and Javascrip
 The directions are then displayed in a list below the search section.
 
 
+
+Overall result - 75%
+
 [![Screen Shot 2017-04-10 at 13.14.28.png](https://s11.postimg.org/7nr1d9msz/Screen_Shot_2017-04-10_at_13.14.28.png)](https://postimg.org/image/7nr1d9msv/)
