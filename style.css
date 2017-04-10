@@ -1,0 +1,156 @@
+
+  body{
+    height:100%;
+    background-image: url("greenbackground.jpg");
+    background-repeat:no-repeat;
+    background-size: 2000px 100%;
+  }
+
+  ul.li
+  {
+    width: 320px;
+  }
+
+  h3
+  {
+    font: bold 20px/1.0 Helvetica, Verdana, sans-serif;
+  }
+
+  li img {
+    float: left;
+    margin: 0 15px 0 0;
+  }
+
+  li {
+    margin-left:-60px;
+    padding: 3px;
+    overflow: auto;
+  }
+
+  li:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+
+	#header{
+			margin-top:30px;
+			height:9%;
+			position:relative;
+			text-align:center;
+			font-family: 40px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+			font-size:130%;
+		}
+
+		#container{
+  		position:relative;
+  		float:right;
+  		width:36%;
+  		border:solid black 2px;
+  		height:auto;
+  		border-radius:20px;
+		}
+		#map{
+		 	border:solid black 2px;
+			float: left;
+			width: 60%;
+			height: 500px;
+			background-color:#E1E1E1;
+			border-radius:20px;
+		}
+
+		#map-directions {
+			border-radius:20px;
+		   background-color:#7E8AA2;
+			float: right;
+			width: 36%;
+			padding-left: 1%;
+			padding-right: 1%;
+			margin-top:40px;
+			margin-bottom:20px;
+		}
+
+    .list {
+      width:400px;
+      padding-left:20px;
+      padding-bottom:40px;
+      overflow:auto;
+      display:none;
+      height:300px;
+      margin:0;
+      float: left;
+    }
+
+    .show {
+      display: none;
+    }
+
+    .hide:target + .show {
+      display: inline;
+    }
+
+    .hide:target {
+      display: none;
+    }
+
+    .hide:target ~ .list {
+      display:inline;
+    }
+
+    /*style the (+) and (-) */
+    .hide, .show {
+    	margin: 15px;
+    	width: 30px;
+    	height: 30px;
+    	border-radius: 30px;
+    	font-size: 20px;
+    	color: #fff;
+    	text-shadow: 0 1px 0 #666;
+    	text-align: center;
+    	text-decoration: none;
+    	box-shadow: 1px 1px 2px #000;
+    	background: #cccbbb;
+    	opacity: .95;
+    	margin-right: 20;
+    	float: left;
+    	margin-bottom: 25px;
+    }
+
+    .hide:hover, .show:hover {
+    	color: #eee;
+    	text-shadow: 0 0 1px #666;
+    	text-decoration: none;
+    	box-shadow: 0 0 4px #222 inset;
+    	opacity: 1;
+    	margin-bottom: 25px;
+    }
+
+    .writng{
+    height:30px;
+    }
+
+    /* #### Travel mode styling #### */
+    .styling {
+      background-color:#85ADB9;
+    	padding: 10px 10px 20px 20px;
+    	font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    	color: #D3D3D3;
+    	text-shadow: 1px 1px 1px #444;
+    	border-radius: 5px;
+    }
+
+    .styling input[type="text"],.styling textarea, .styling select {
+    	border: none;
+    	color: black;
+    	height: 32px;
+    	line-height:32px;
+    	margin-bottom: 16px;
+    	margin-right: 6px;
+    	margin-top: 2px;
+    	outline: 0 none;
+    	padding: 5px 0px 5px 5px;
+    	width: 60%;
+    	border-radius: 2px;
+    	border:solid black 1px;
+    	-webkit-border-radius: 2px;
+    	background: #E2F0D6;
+    }
